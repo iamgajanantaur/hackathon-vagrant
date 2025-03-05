@@ -16,8 +16,7 @@ sudo -u vagrant sshpass -p 'vagrant' ssh-copy-id -i /home/vagrant/.ssh/id_rsa.pu
 
 echo "Downloading Hadoop 3.3.2..."
 cd /home/vagrant
-sudo -u vagrant bash -c "wget http://192.168.80.1/hadoop-3.3.2.tar.gz"
-# wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz
+sudo -u vagrant bash -c "wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz"
 
 echo "Extracting Hadoop archive..."
 sudo -u vagrant bash -c "tar xf hadoop-3.3.2.tar.gz"

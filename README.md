@@ -13,5 +13,10 @@
 ### Open command promt and install plugin which help vagrant to communicate with vmware workstation.
 > vagrant plugin install vagrant-vmware-desktop
 
-### download vagrant utility for vmware
+### Download and install vagrant utility for vmware
 > https://developer.hashicorp.com/vagrant/docs/providers/vmware/vagrant-vmware-utility
+
+
+
+## Go to the directory, open command promt where Vagrantfile is present and give command
+> vagrant up  
